@@ -93,7 +93,7 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-01-22' },
       ],
     },
-      courseSchedule: {
+      courseSchedule {
         // 单双周的基准
         benchmark: {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
