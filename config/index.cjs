@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'f85d1ffdef4c1bedf98d1589843a6aec',
 
-  PROVINCE: '新疆',
-  CITY: '库尔勒市',
+  PROVINCE: '辽宁',
+  CITY: '大连',
 
   USERS: [
     {
@@ -29,18 +29,10 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: 'babe', year: '2001', date: '12-09',
-        },
+
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: 'babe', year: '2001', date: '01-20',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '04-22',
-        },
-        {
-          type: '节日', name: '新年春节', year: '2022', date: '01-22',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -87,7 +79,7 @@ const USER_CONFIG = {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
           date: '2022-10-24',
           // 该日期是否为单周
-          isOdd: false
+          isOdd: true
         },
         // 课表
         courses: {
