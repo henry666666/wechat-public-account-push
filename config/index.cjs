@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'f85d1ffdef4c1bedf98d1589843a6aec',
 
   PROVINCE: '新疆',
-  CITY: '库尔勒',
+  CITY: '库尔勒市',
 
   USERS: [
     {
