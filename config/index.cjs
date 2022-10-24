@@ -18,7 +18,7 @@ const USER_CONFIG = {
 
   USERS: [
     {
-      openurl: "https://music.163.com/song?id=473285827&userid=430633625",
+      openurl: 'https://music.163.com/song?id=473285827&userid=430633625',
       // 想要发送的人的名字
       name: 'babe',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
