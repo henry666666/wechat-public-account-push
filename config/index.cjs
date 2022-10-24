@@ -18,12 +18,13 @@ const USER_CONFIG = {
 
   USERS: [
     {
+      openurl: "https://music.163.com/song?id=473285827&userid=430633625",
       // 想要发送的人的名字
       name: 'babe',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oR9X45zu65-bw7Vq41ME0qOvTBjg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'rSywwXROxasHjI96kfith3AoWvJb91iD_eoXtd75X9M',
+      useTemplateId: 'tDYuqgzChosxEWgtFxftxCdXINj0ovFmrM3y6MpAkOs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-20',
       horoscopeDateType: '今日',
@@ -49,9 +50,10 @@ const USER_CONFIG = {
      /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: true,
+    earthyLoveWords: true,
      /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: true,
+    CIBA: false,
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     poetry: false,
      /** 星座运势 */
